@@ -19,10 +19,10 @@ h1, h2
 a
 {
 	text-decoration: none;
-	color:limegreen;
+	color: green;
 }
 button
 {
 	background-color: darkblue;
-	text-color: yellow;
+	text-color: green;
 }

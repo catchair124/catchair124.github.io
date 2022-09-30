@@ -21,8 +21,13 @@ a
 	text-decoration: none;
 	color: green;
 }
-button
+submit,reset
 {
 	background-color: darkblue;
 	color: green;
+	size: 125%;
+}
+reset
+{
+	align:right;
 }

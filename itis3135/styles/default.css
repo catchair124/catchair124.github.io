@@ -25,9 +25,9 @@ submit,reset
 {
 	background-color: darkblue;
 	color: green;
-	size: 125%;
+	resize: 125%;
 }
 reset
 {
-	align:right;
+	text-align:right;
 }

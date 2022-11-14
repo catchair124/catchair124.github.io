@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link href="styles/default.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <title>Michael Horn, ITIS 3135, activity #3</title>
+  </head>
+  <body>
+    <div data-include="components/header.html"></div>
+    <nav id="internal-links"></nav>
+    <main>
+      <h2>Activity 3</h2>
+      <form action="#">
+        <label for="name">Enter your name:</label><br>
+        <input type="text" id="name" name="name" required placeholder="First name Last name"><br>
+        
+        <label for="phone_number">Enter your phone number:</label><br>
+        <input type="text" id="phone_number" name="phone_number" pattern="[0-9]{10}" placeholder="123-456-7890"><br>
+        
+        <label for="email_address">Enter your email address:</label><br>
+        <input type="email" id="email_address" name="email_address" required ><br>
+        
+        <label for="Streaming_services">What streaming services do you use?</label><br>
+        
+        <input type="checkbox" id="HBO Max" name="HBO Max" value="HBO Max">
+        <label for="HBO Max"> I use HBO Max</label><br>
+        
+        <input type="checkbox" id="Netflix" name="Netflix" value="Netflix">
+        <label for="Netflix"> I use Netflix</label><br>
+        
+        <input type="checkbox" id="Hulu" name="Hulu" value="Hulu">
+        <label for="Hulu"> I use Hulu</label><br>
+        
+        <label for="best_show">Which show is better:</label><br>
+        
+        <input type="radio" id="friends" name="best_show" value="Friends">
+        <label for="Friends"> Friends is better!</label><br>
+        
+        <input type="radio" id="the_office" name="best_show" value="The Office">
+        <label for="the_office"> The Office is better!</label><br>
+        
+        <label for="movie">Choose a movie series:</label>
+        
+        <select id="movie" name="movie">
+          <option value="john_wick">John Wick</option>
+          <option value="mission_impossible">Mission Impossible</option>
+          <option value="james_bond">James Bond</option>
+          <option value="bourne">The Bourne movies</option>
+        </select><br>
+        
+        <input type="submit" value="Submit">
+        <input type="reset">
+      </form>
+    </main>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/HTMLInclude.js"></script>
+  </body>
+</html>
